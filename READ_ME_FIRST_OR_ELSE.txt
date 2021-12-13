@@ -9,7 +9,7 @@ This folder contains a series of important things. These are your standing order
 	- etopo01.nc: 1 degree sampling, also smoothed using a Gaussian with 1 degree standard deviation 
 
 3. The codes* needed to create the 3D model input files for simulations like these, as used to create the 3D model files in the template_input directory
-4. The raw data files needed to create these 3D model files, i.e. the raw copies of ETOPO1 and Crust 1.0's Moho
+4. The raw data files needed to create these 3D model files, i.e. Crust 1.0's Moho (the raw copy of ETOPO1 is too large, but you can download it here: https://www.ngdc.noaa.gov/mgg/global/global.html)
 5. A sort of manual
 6. A python script* to read in synthetic data from AxiSEM3D runs and plot them.
 
