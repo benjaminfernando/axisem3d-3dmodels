@@ -83,7 +83,7 @@ def write_data_to_netcdf_file(smooth_overall=True, smooth_poles=False,resample=T
     longitude[:] = longitude_points #actually fill data in 
     latitude[:] = latitude_points
     
-    radius_points = 6371 + depth_points #depth points are negative 
+    radius_points = 6371 *1e3 + depth_points #depth points are negative - UPDATED TO CORRECT UNITS 
     
     relative_moho_radius[:] = radius_points - 6346600
     
